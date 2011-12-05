@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8662A114855D530079A9A2 /* FormSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8662A014855D530079A9A2 /* FormSubViewController.m */; };
+		BD8662A514855D970079A9A2 /* ImageSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8662A414855D970079A9A2 /* ImageSubViewController.m */; };
+		BD8662A714855DC00079A9A2 /* FormSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8662A614855DC00079A9A2 /* FormSubView.xib */; };
+		BD8662A914855DD40079A9A2 /* ImageSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8662A814855DD40079A9A2 /* ImageSubView.xib */; };
+		BD9C6F9A14881B4A00A1B33D /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6F9914881B4A00A1B33D /* AppData.m */; };
+		BD9FF119148AE7EC002DC732 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9FF117148AE7EC002DC732 /* Icon.png */; };
+		BD9FF11A148AE7EC002DC732 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9FF118148AE7EC002DC732 /* Icon@2x.png */; };
+		BDC1355B14855BF100421858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC1355A14855BF100421858 /* UIKit.framework */; };
+		BDC1355D14855BF100421858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC1355C14855BF100421858 /* Foundation.framework */; };
+		BDC1355F14855BF100421858 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC1355E14855BF100421858 /* CoreGraphics.framework */; };
+		BDC1356514855BF100421858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC1356314855BF100421858 /* InfoPlist.strings */; };
+		BDC1356814855BF100421858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC1356714855BF100421858 /* main.m */; };
+		BDC1356B14855BF100421858 /* MemTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC1356A14855BF100421858 /* MemTestAppDelegate.m */; };
+		BDC1356E14855BF100421858 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC1356C14855BF100421858 /* MainWindow.xib */; };
+		BDC1357114855BF100421858 /* MemTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC1357014855BF100421858 /* MemTestViewController.m */; };
+		BDC1357414855BF100421858 /* MemTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC1357214855BF100421858 /* MemTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD86629F14855D530079A9A2 /* FormSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormSubViewController.h; sourceTree = "<group>"; };
+		BD8662A014855D530079A9A2 /* FormSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormSubViewController.m; sourceTree = "<group>"; };
+		BD8662A314855D970079A9A2 /* ImageSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSubViewController.h; sourceTree = "<group>"; };
+		BD8662A414855D970079A9A2 /* ImageSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSubViewController.m; sourceTree = "<group>"; };
+		BD8662A614855DC00079A9A2 /* FormSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormSubView.xib; sourceTree = "<group>"; };
+		BD8662A814855DD40079A9A2 /* ImageSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageSubView.xib; sourceTree = "<group>"; };
+		BD8662BA148572B80079A9A2 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		BD9C6F9814881B4A00A1B33D /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		BD9C6F9914881B4A00A1B33D /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		BD9FF117148AE7EC002DC732 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BD9FF118148AE7EC002DC732 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BDC1355614855BF100421858 /* MemTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC1355A14855BF100421858 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDC1355C14855BF100421858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDC1355E14855BF100421858 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDC1356214855BF100421858 /* MemTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemTest-Info.plist"; sourceTree = "<group>"; };
+		BDC1356414855BF100421858 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDC1356614855BF100421858 /* MemTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemTest-Prefix.pch"; sourceTree = "<group>"; };
+		BDC1356714855BF100421858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDC1356914855BF100421858 /* MemTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemTestAppDelegate.h; sourceTree = "<group>"; };
+		BDC1356A14855BF100421858 /* MemTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemTestAppDelegate.m; sourceTree = "<group>"; };
+		BDC1356D14855BF100421858 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BDC1356F14855BF100421858 /* MemTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemTestViewController.h; sourceTree = "<group>"; };
+		BDC1357014855BF100421858 /* MemTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemTestViewController.m; sourceTree = "<group>"; };
+		BDC1357314855BF100421858 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MemTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC1355314855BF100421858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC1355B14855BF100421858 /* UIKit.framework in Frameworks */,
+				BDC1355D14855BF100421858 /* Foundation.framework in Frameworks */,
+				BDC1355F14855BF100421858 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC1354B14855BF100421858 = {
+			isa = PBXGroup;
+			children = (
+				BDC1356014855BF100421858 /* MemTest */,
+				BDC1356114855BF100421858 /* Supporting Files */,
+				BDC1355914855BF100421858 /* Frameworks */,
+				BDC1355714855BF100421858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC1355714855BF100421858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC1355614855BF100421858 /* MemTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC1355914855BF100421858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC1355A14855BF100421858 /* UIKit.framework */,
+				BDC1355C14855BF100421858 /* Foundation.framework */,
+				BDC1355E14855BF100421858 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC1356014855BF100421858 /* MemTest */ = {
+			isa = PBXGroup;
+			children = (
+				BDC1356914855BF100421858 /* MemTestAppDelegate.h */,
+				BDC1356A14855BF100421858 /* MemTestAppDelegate.m */,
+				BDC1356C14855BF100421858 /* MainWindow.xib */,
+				BDC1356F14855BF100421858 /* MemTestViewController.h */,
+				BDC1357014855BF100421858 /* MemTestViewController.m */,
+				BDC1357214855BF100421858 /* MemTestViewController.xib */,
+				BD86629F14855D530079A9A2 /* FormSubViewController.h */,
+				BD8662A014855D530079A9A2 /* FormSubViewController.m */,
+				BD8662A314855D970079A9A2 /* ImageSubViewController.h */,
+				BD8662A414855D970079A9A2 /* ImageSubViewController.m */,
+				BD8662A614855DC00079A9A2 /* FormSubView.xib */,
+				BD8662A814855DD40079A9A2 /* ImageSubView.xib */,
+				BD8662BA148572B80079A9A2 /* constants.h */,
+				BD9C6F9814881B4A00A1B33D /* AppData.h */,
+				BD9C6F9914881B4A00A1B33D /* AppData.m */,
+			);
+			path = MemTest;
+			sourceTree = "<group>";
+		};
+		BDC1356114855BF100421858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FF117148AE7EC002DC732 /* Icon.png */,
+				BD9FF118148AE7EC002DC732 /* Icon@2x.png */,
+				BDC1356214855BF100421858 /* MemTest-Info.plist */,
+				BDC1356314855BF100421858 /* InfoPlist.strings */,
+				BDC1356614855BF100421858 /* MemTest-Prefix.pch */,
+				BDC1356714855BF100421858 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = MemTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC1355514855BF100421858 /* MemTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC1357714855BF100421858 /* Build configuration list for PBXNativeTarget "MemTest" */;
+			buildPhases = (
+				BDC1355214855BF100421858 /* Sources */,
+				BDC1355314855BF100421858 /* Frameworks */,
+				BDC1355414855BF100421858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemTest;
+			productName = MemTest;
+			productReference = BDC1355614855BF100421858 /* MemTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC1354D14855BF100421858 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BDC1355014855BF100421858 /* Build configuration list for PBXProject "MemTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDC1354B14855BF100421858;
+			productRefGroup = BDC1355714855BF100421858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC1355514855BF100421858 /* MemTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC1355414855BF100421858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC1356514855BF100421858 /* InfoPlist.strings in Resources */,
+				BDC1356E14855BF100421858 /* MainWindow.xib in Resources */,
+				BDC1357414855BF100421858 /* MemTestViewController.xib in Resources */,
+				BD8662A714855DC00079A9A2 /* FormSubView.xib in Resources */,
+				BD8662A914855DD40079A9A2 /* ImageSubView.xib in Resources */,
+				BD9FF119148AE7EC002DC732 /* Icon.png in Resources */,
+				BD9FF11A148AE7EC002DC732 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC1355214855BF100421858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC1356814855BF100421858 /* main.m in Sources */,
+				BDC1356B14855BF100421858 /* MemTestAppDelegate.m in Sources */,
+				BDC1357114855BF100421858 /* MemTestViewController.m in Sources */,
+				BD8662A114855D530079A9A2 /* FormSubViewController.m in Sources */,
+				BD8662A514855D970079A9A2 /* ImageSubViewController.m in Sources */,
+				BD9C6F9A14881B4A00A1B33D /* AppData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDC1356314855BF100421858 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC1356414855BF100421858 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDC1356C14855BF100421858 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC1356D14855BF100421858 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BDC1357214855BF100421858 /* MemTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC1357314855BF100421858 /* en */,
+			);
+			name = MemTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC1357514855BF100421858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDC1357614855BF100421858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BDC1357814855BF100421858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemTest/MemTest-Prefix.pch";
+				INFOPLIST_FILE = "MemTest/MemTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDC1357914855BF100421858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemTest/MemTest-Prefix.pch";
+				INFOPLIST_FILE = "MemTest/MemTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC1355014855BF100421858 /* Build configuration list for PBXProject "MemTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC1357514855BF100421858 /* Debug */,
+				BDC1357614855BF100421858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC1357714855BF100421858 /* Build configuration list for PBXNativeTarget "MemTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC1357814855BF100421858 /* Debug */,
+				BDC1357914855BF100421858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC1354D14855BF100421858 /* Project object */;
+}
